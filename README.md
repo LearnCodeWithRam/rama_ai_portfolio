@@ -2,17 +2,24 @@
 
 An interactive portfolio for Ramanuj Saket, an AI/ML/Gen-AI Engineer. The site presents professional experience, projects, skills, education, availability, and an AI-powered digital twin chat experience.
 
+<p>
+	<a href="https://ramaaiportfolio.vercel.app/">🚀 View Live Portfolio Demo</a>
+</p>
+
 ## Landing Page
 
 ![Ramanuj Saket AI portfolio landing page](public/landing-page.png)
 
 ## Contact and Demo
 
-- **Email:** [rmnjsaket4664@gmail.com](mailto:rmnjsaket4664@gmail.com)
-- **LinkedIn:** [Ramanuj Saket on LinkedIn](https://www.linkedin.com/in/ramanuj-saket/)
-- **Kaggle:** [ramanujsaket on Kaggle](https://www.kaggle.com/ramanujsaket)
-- **GitHub:** [LearnCodeWithRam](https://github.com/LearnCodeWithRam)
-- **Portfolio:** [ramanujsaket.com](https://portfolio.ramanujsaket.com)
+<a href="mailto:rmnjsaket4664@gmail.com"><img src="https://img.shields.io/badge/Email-rmnjsaket4664%40gmail.com-EA4335?logo=gmail&logoColor=white" alt="Email Ramanuj Saket" /></a>
+<a href="https://www.linkedin.com/in/ramanuj-saket/"><img src="https://img.shields.io/badge/LinkedIn-Ramanuj%20Saket-0A66C2?logo=linkedin&logoColor=white" alt="Ramanuj Saket on LinkedIn" /></a>
+<a href="https://www.kaggle.com/ramanujsaket"><img src="https://img.shields.io/badge/Kaggle-ramanujsaket-20BEFF?logo=kaggle&logoColor=white" alt="Ramanuj Saket on Kaggle" /></a>
+<a href="https://github.com/LearnCodeWithRam"><img src="https://img.shields.io/badge/GitHub-LearnCodeWithRam-181717?logo=github&logoColor=white" alt="LearnCodeWithRam on GitHub" /></a>
+<a href="https://ramaaiportfolio.vercel.app/"><img src="https://img.shields.io/badge/Live%20Demo-Open%20Portfolio-000000?logo=vercel&logoColor=white" alt="Open live portfolio demo" /></a>
+
+<a href="portfolio-config.json"><img src="https://img.shields.io/badge/Config-portfolio--config.json-475569?logo=json&logoColor=white" alt="Open portfolio configuration" /></a>
+<a href="#chat-api"><img src="https://img.shields.io/badge/Chat%20API-Documentation-7C3AED?logo=swagger&logoColor=white" alt="Read Chat API documentation" /></a>
 
 
 ## Features
