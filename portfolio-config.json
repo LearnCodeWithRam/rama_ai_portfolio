@@ -1,0 +1,247 @@
+{
+  "personal": {
+    "name": "Ramanuj Saket",
+    "age": 30,
+    "location": "Mandi, Himachal Pradesh, India",
+    "title": "AI/ML/Gen-AI Engineer",
+    "email": "rmnjsaket4664@gmail.com",
+    "phone": "+91-8349819726",
+    "languages": ["Hindi (Mother Tongue)", "English (Fluent)"],
+    "bio": "Hi, I'm Ramanuj — an AI/ML Engineer with 4+ years of experience, including 3+ years focused on Generative AI, Agentic AI, and machine learning model development. I currently work at IIT Mandi iHub & HCI Foundation, building and deploying AI systems for healthcare, travel, and industrial clients, while pursuing an Executive M.Tech in Artificial Intelligence at IIT Jodhpur alongside full-time work. I build AI chatbots, computer vision systems, and automated agent workflows, and deploy models on AWS cloud infrastructure. I enjoy working directly with clients and cross-functional teams, and I'm known for clear technical documentation and mentoring junior team members.",
+    "avatar": "/profile.png",
+    "fallbackAvatar": "/placeholder.jpg"
+  },
+  "education": {
+    "current": {
+      "degree": "Executive M.Tech in Artificial Intelligence (Pursuing)",
+      "institution": "Indian Institute of Technology (IIT) Jodhpur",
+      "duration": "2025-2027"
+    },
+    "previous": {
+      "degree": "B.E. in Electronics & Communication Engineering",
+      "institution": "Malwa Institute of Science & Technology, Indore, M.P.",
+      "percentage": "78.30%",
+      "duration": "2015-2019"
+    }
+  },
+  "experience": [
+    {
+      "company": "IIT Mandi iHub & HCI Foundation",
+      "position": "Software Developer",
+      "type": "Full-time",
+      "duration": "August 2023 - Present",
+      "location": "Mandi, Himachal Pradesh",
+      "description": "Designed, trained, and deployed production-ready Machine Learning and Generative AI models, covering data preprocessing, model fine-tuning, and performance optimization. Built and integrated intelligent, agent-based AI systems using frameworks such as Semantic Kernel and AutoGen to automate complex workflows. Applied deep learning and computer vision techniques to deliver scalable, real-world AI solutions across healthcare, travel, and industrial domains. Collaborated with cross-functional teams and contributed to technical documentation to support knowledge sharing and reproducibility.",
+      "technologies": ["Python", "TensorFlow", "PyTorch", "Semantic Kernel", "AutoGen", "Computer Vision", "AWS", "RAG"]
+    },
+    {
+      "company": "HCL Technologies Ltd",
+      "position": "Software Engineer",
+      "type": "Full-time",
+      "duration": "April 2022 - April 2023",
+      "location": "Bangalore, Karnataka",
+      "description": "Designed, developed, and maintained Java-based applications and web services using Core Java and the Spring framework. Delivered customized software features aligned with client requirements, strengthening foundational skills in scalable, production-quality software engineering.",
+      "technologies": ["Core Java", "Spring Framework", "Web Services"]
+    },
+    {
+      "company": "Ansa Deco Glass Pvt Ltd",
+      "position": "Logistic Support",
+      "type": "Full-time",
+      "duration": "March 2021 - August 2021",
+      "location": "Surat, Gujarat",
+      "description": "Managed warehouse operations using SAP S/4HANA Cloud. Generated daily inventory reports for senior management decision-making.",
+      "technologies": ["SAP S/4HANA Cloud"]
+    }
+  ],
+  "skills": {
+    "programming_databases": ["Python", "MySQL", "MongoDB", "PostgreSQL", "FAISS Vector DB"],
+    "machine_learning_deep_learning": ["Supervised & Unsupervised Learning", "Neural Networks", "Feature Engineering", "Regularization (L1/L2)", "TensorFlow", "PyTorch", "Scikit-learn", "XGBoost"],
+    "genai_agentic_ai": ["LLMs", "Retrieval-Augmented Generation (RAG)", "LangChain", "Semantic Kernel", "AutoGen", "CrewAI", "Prompt Engineering", "LLM Fine-Tuning (LoRA, QLoRA)", "N8N", "Microsoft Agent Framework"],
+    "cloud_mlops": ["AWS SageMaker", "AWS Bedrock", "EC2", "Lightsail", "Lambda", "DynamoDB", "S3", "Rekognition", "Textract", "Cloudflare AI", "RunPod", "Docker", "Kubernetes", "GitHub Actions", "Jenkins", "CI/CD", "MLflow", "Weights & Biases"],
+    "computer_vision_nlp": ["OpenCV", "YOLOv8", "DeepFace", "MediaPipe", "MTCNN", "spaCy"],
+    "data_analysis_visualization": ["Power BI", "NumPy", "Pandas", "Matplotlib"],
+    "soft_skills": ["Cross-functional Collaboration", "Client Communication", "Mentoring", "Technical Documentation", "Team Leadership"]
+  },
+  "certifications": [
+    {
+      "name": "Orchestrate a Multi-Agent Solution using the Microsoft Agent Framework",
+      "issuer": "Microsoft Learn",
+      "date": "2026",
+      "year": "2026"
+    },
+    {
+      "name": "Hands-on Workshop on Generative AI Agents & Workflow Automation",
+      "issuer": "IIT Madras",
+      "date": "June 2025",
+      "year": "2025"
+    },
+    {
+      "name": "Data Science Mentorship Program (DSMP) 2.0",
+      "issuer": "CampusX",
+      "date": "May 2025",
+      "year": "2025"
+    },
+    {
+      "name": "Certificate in Python Programming with AI & ML",
+      "issuer": "NIT Warangal",
+      "date": "October-November 2021",
+      "year": "2021"
+    },
+    {
+      "name": "Fundamentals of Artificial Intelligence",
+      "issuer": "IIT Guwahati (NPTEL)",
+      "date": "July-October 2021 (12 weeks)",
+      "year": "2021"
+    }
+  ],
+  "achievements": [
+    {
+      "title": "Top Innovator - AI for Bharat Hackathon",
+      "description": "Selected as a Top Innovator and shortlisted for the prototype development phase."
+    },
+    {
+      "title": "Placement Coordinator & Team Leader",
+      "description": "Assisted in the management and coordination of campus placements, online recruitment tests, and system administration during college."
+    }
+  ],
+  "projects": [
+    {
+      "title": "Child Malnutrition Classification",
+      "category": "AI/ML for Public Health",
+      "client": "Women Development and Child Welfare, Andhra Pradesh Government",
+      "role": "AI/ML Developer",
+      "description": "Developed AI agents to automate verification and validation of malnutrition data for 1,648 children, eliminating manual errors and reducing validation time by 95%. Built a custom AI-enabled hybrid image annotation tool using 22 landmark points and contour extraction, processing 8,193 child left-arm images and cutting project development time by approximately 80%. Developed an offline, Android-based AI screening tool for Severe Acute Malnutrition (SAM) detection using 2D Geometric Morphometrics, enabling scalable field screening in low-resource environments. Achieved an overall accuracy of 90.68% using Linear Discriminant Analysis (LDA) on an 18-landmark model (removing redundant landmarks to avoid collinearity) after allometric correction, with fOPA aligned to the mean target.",
+      "techStack": ["Geometric Morphometrics", "Linear Discriminant Analysis (LDA)", "tpsDig2", "MorphoJ", "MediaPipe", "Image Segmentation"],
+      "metrics": ["95% reduction in validation time", "90.68% classification accuracy", "8,193 images processed", "~80% reduction in development time"],
+      "featured": true,
+      "links": [],
+      "images": []
+    },
+    {
+      "title": "HCIverse - Multimodal No-Code AI Workflow Platform",
+      "category": "AI Platform / Full-stack Development",
+      "role": "AI Engineer",
+      "description": "Built a visual platform to design multimodal AI pipelines by connecting 30+ models across image, video, audio, and text. Developed with React Flow (frontend) and FastAPI (backend), featuring a custom DAG execution engine (Kahn's algorithm), real-time node streaming via WebSockets, secure authentication, and persistent project storage in MongoDB. Integrated Cloudflare Workers AI for asset caching and fallback routing.",
+      "techStack": ["Python", "FastAPI", "React Flow", "Celery", "Redis", "MongoDB", "Cloudflare Workers AI", "WebSockets"],
+      "featured": true,
+      "links": [],
+      "images": []
+    },
+    {
+      "title": "AI-Agentic Chatbot - LogisEye",
+      "category": "Agentic AI / Conversational AI",
+      "client": "LogisEye, Dubai",
+      "role": "AI/ML Developer",
+      "description": "Built a multilingual AI chatbot with a custom UI to handle freight queries, shipment tracking, pricing insights, and more. Integrated voice, WhatsApp, and external APIs.",
+      "techStack": ["ChromaDB", "FireCrawl API", "Semantic Kernel", "RAG", "AWS Bedrock", "Llama 3.1 405B", "Voice Integration", "WhatsApp APIs"],
+      "featured": true,
+      "links": [],
+      "images": []
+    },
+    {
+      "title": "ML & Computer Vision-based Yarn Inspection",
+      "category": "Computer Vision / Industrial AI",
+      "client": "Shingora Textiles, Ludhiana",
+      "role": "AI/ML Developer",
+      "description": "Developed a data/image collection and image annotation pipeline API for a real-time defect detection system for yarn.",
+      "techStack": ["AWS EC2", "MongoDB", "S3", "FastAPI", "Python", "Image Annotation"],
+      "featured": true,
+      "links": [],
+      "images": []
+    },
+    {
+      "title": "AI Travel Trip Planner Assistant",
+      "category": "Agentic AI",
+      "role": "AI/ML Developer",
+      "description": "Developed an agent-based travel assistant for personalized itineraries using conversational AI and real-time data.",
+      "techStack": ["Python", "Semantic Kernel", "Amadeus API", "AutoGen", "FastAPI", "AWS Bedrock", "FAISS DB", "Conversational AI"],
+      "featured": true,
+      "links": [],
+      "images": []
+    },
+    {
+      "title": "Poshan App - Anganwadi Services",
+      "category": "Backend Development",
+      "role": "Backend Developer",
+      "description": "Developed backend APIs for integration with mobile apps and a web dashboard for nutrition tracking and a face recognition-based attendance system.",
+      "techStack": ["Python (Flask)", "AWS DynamoDB", "AWS Rekognition", "S3", "Lambda", "Mobile App APIs", "Web Dashboard APIs"],
+      "featured": true,
+      "links": [],
+      "images": []
+    },
+    {
+      "title": "Face Recognition for Furhat Social Robot",
+      "category": "Computer Vision",
+      "role": "AI/ML Developer",
+      "description": "Developed a real-time face recognition system for guest authentication at events, achieving 96.8% accuracy. Enhanced recognition performance by integrating XGBoost with LBPH (+22% accuracy improvement), later extending to deep learning frameworks (MTCNN, DeepFace, MediaPipe) for robust deployment on the Furhat Social Robot.",
+      "techStack": ["MTCNN", "DeepFace", "MediaPipe", "OpenCV", "Python", "XGBoost", "LBPH", "Furhat Social Robot"],
+      "metrics": ["96.8% recognition accuracy", "+22% accuracy improvement via XGBoost + LBPH"],
+      "featured": true,
+      "links": [],
+      "images": []
+    }
+  ],
+  "social": {
+    "linkedin": "https://www.linkedin.com/in/ramanuj-saket/",
+    "github": "https://github.com/LearnCodeWithRam",
+    "twitter": "#",
+    "kaggle": "https://www.kaggle.com/ramanujsaket",
+    "leetcode": "#",
+    "fiverr": "https://www.fiverr.com",
+    "portfolio": "https://portfolio.ramanujsaket.com",
+    "email": "mailto:rmnjsaket4664@gmail.com"
+  },
+  "availability": {
+    "status": "Open to new opportunities",
+    "focusAreas": ["Generative AI", "Agentic AI Systems", "Machine Learning", "Computer Vision", "MLOps"],
+    "workStyle": "Experienced in cross-functional collaboration, client communication, mentoring, and delivering production-grade AI solutions."
+  },
+  "resume": {
+    "title": "Ramanuj Saket - Resume",
+    "description": "AI/ML/Gen-AI Engineer",
+    "fileType": "PDF",
+    "lastUpdated": "September 2026",
+    "downloadUrl": "/Ramanuj_Resume_09_2026.pdf"
+  },
+  "chatbot": {
+    "name": "Ramanuj",
+    "personality": "professional, knowledgeable, approachable",
+    "tone": "friendly and informative",
+    "language": "english",
+    "responseStyle": "concise and informative",
+    "useEmojis": false,
+    "topics": ["projects", "skills", "experience", "certifications", "contact"]
+  },
+  "presetQuestions": {
+    "me": [
+      "Who are you?",
+      "Tell me about yourself",
+      "What's your background?",
+      "How did you get started in AI/ML?"
+    ],
+    "professional": [
+      "What are your skills?",
+      "Can I see your resume?",
+      "What's your experience?",
+      "What certifications do you have?",
+      "What's your educational background?"
+    ],
+    "projects": [
+      "What projects are you most proud of?",
+      "Tell me about your Generative AI projects",
+      "What are your recent projects?",
+      "Show me your machine learning projects"
+    ],
+    "contact": [
+      "How can I reach you?",
+      "What's your email?",
+      "Where are you located?"
+    ]
+  },
+  "meta": {
+    "configVersion": "3.0",
+    "lastUpdated": "2026-09-16",
+    "generatedBy": "Ramanuj Saket",
+    "description": "Portfolio configuration generated from updated resume (Sept 2026), covering experience, skills, certifications, achievements, and industrial projects"
+  }
+}
