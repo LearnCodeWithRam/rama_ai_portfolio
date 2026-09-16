@@ -52,8 +52,26 @@ export default function ChatBottombar({
       animate={{ opacity: 1, y: 0 }}
       className="w-full pb-2 md:pb-8"
     >
+      {(isLoading || isToolInProgress) && (
+        <div
+          className="mb-2 flex items-center justify-center gap-2 px-4 text-sm text-slate-600 dark:text-slate-300"
+          role="status"
+          aria-live="polite"
+        >
+          <span className="flex gap-1" aria-hidden="true">
+            <span className="h-1.5 w-1.5 animate-bounce rounded-full bg-sky-500 [animation-delay:-0.2s]" />
+            <span className="h-1.5 w-1.5 animate-bounce rounded-full bg-sky-500 [animation-delay:-0.1s]" />
+            <span className="h-1.5 w-1.5 animate-bounce rounded-full bg-sky-500" />
+          </span>
+          <span>
+            {isToolInProgress
+              ? 'Gathering the most relevant details...'
+              : 'Thinking through your question...'}
+          </span>
+        </div>
+      )}
       <form onSubmit={handleSubmit} className="relative w-full md:px-4">
-        <div className="mx-auto flex items-center rounded-full border border-[#E5E5E9] bg-[#ECECF0] py-2 pr-2 pl-6">
+        <div className="mx-auto flex items-center rounded-full border border-slate-200 bg-slate-100 py-2 pr-2 pl-6 dark:border-slate-700 dark:bg-slate-800">
           <input
             ref={inputRef}
             type="text"
@@ -61,9 +79,13 @@ export default function ChatBottombar({
             onChange={handleInputChange}
             onKeyDown={handleKeyPress}
             placeholder={
-              isToolInProgress ? 'Tool is in progress...' : 'Ask me anything'
+              isToolInProgress
+                ? 'Gathering details...'
+                : isLoading
+                  ? 'Preparing your answer...'
+                  : 'Ask me anything'
             }
-            className="text-md text-foreground placeholder:text-muted-foreground w-full border-none bg-transparent focus:outline-none"
+            className="text-md w-full border-none bg-transparent text-slate-950 placeholder:text-slate-600 focus:outline-none dark:text-white dark:placeholder:text-slate-300"
             disabled={isToolInProgress || isLoading}
           />
 
